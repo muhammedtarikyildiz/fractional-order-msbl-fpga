@@ -1,0 +1,349 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jun 25 18:55:23 2021
+# Process ID: 13916
+# Current directory: C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent676 C:\Users\TARIK\Desktop\HDL_Example1\hdl_netlist\xilinx_transfer_function_1.xpr
+# Log file: C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/vivado.log
+# Journal file: C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:17 . Memory (MB): peak = 1428.805 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: xilinx_transfer_function_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1470.418 ; gain = 41.613
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1.vhd:283]
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1_default_clock_driver' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1.vhd:253]
+INFO: [Synth 8-638] synthesizing module 'xlclockdriver' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xlclockdriver_rd.vhd:59]
+	Parameter period bound to: 1 - type: integer 
+	Parameter log_2_period bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:31' bound to instance 'clr_reg' of component 'synth_reg_w_init' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xlclockdriver_rd.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:37]
+	Parameter width bound to: 1 - type: integer 
+	Parameter init_index bound to: 0 - type: integer 
+	Parameter init_value bound to: 4'b0000 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init' (1#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init' (2#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'xlclockdriver' (3#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xlclockdriver_rd.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'xilinx_transfer_function_1_default_clock_driver' (4#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1.vhd:253]
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1_struct' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1_xlmult' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:451]
+	Parameter core_name0 bound to: xilinx_transfer_function_1_mult_gen_v12_0_i0 - type: string 
+	Parameter a_width bound to: 32 - type: integer 
+	Parameter a_bin_pt bound to: 24 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter b_width bound to: 64 - type: integer 
+	Parameter b_bin_pt bound to: 32 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter p_width bound to: 64 - type: integer 
+	Parameter p_bin_pt bound to: 48 - type: integer 
+	Parameter p_arith bound to: 1 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter c_a_width bound to: 32 - type: integer 
+	Parameter c_b_width bound to: 64 - type: integer 
+	Parameter c_type bound to: 0 - type: integer 
+	Parameter c_a_type bound to: 0 - type: integer 
+	Parameter c_b_type bound to: 0 - type: integer 
+	Parameter c_baat bound to: 32 - type: integer 
+	Parameter multsign bound to: 2 - type: integer 
+	Parameter c_output_width bound to: 96 - type: integer 
+INFO: [Synth 8-3491] module 'xilinx_transfer_function_1_mult_gen_v12_0_i0' declared at 'C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/.Xil/Vivado-13916-DESKTOP-BJG36E9/realtime/xilinx_transfer_function_1_mult_gen_v12_0_i0_stub.vhdl:5' bound to instance 'core_instance0' of component 'xilinx_transfer_function_1_mult_gen_v12_0_i0' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:526]
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1_mult_gen_v12_0_i0' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/.Xil/Vivado-13916-DESKTOP-BJG36E9/realtime/xilinx_transfer_function_1_mult_gen_v12_0_i0_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'xilinx_transfer_function_1_xlmult' (5#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:451]
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1_xlmult__parameterized0' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:451]
+	Parameter core_name0 bound to: xilinx_transfer_function_1_mult_gen_v12_0_i1 - type: string 
+	Parameter a_width bound to: 64 - type: integer 
+	Parameter a_bin_pt bound to: 48 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter b_width bound to: 32 - type: integer 
+	Parameter b_bin_pt bound to: 24 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter p_width bound to: 64 - type: integer 
+	Parameter p_bin_pt bound to: 32 - type: integer 
+	Parameter p_arith bound to: 1 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter c_a_width bound to: 64 - type: integer 
+	Parameter c_b_width bound to: 32 - type: integer 
+	Parameter c_type bound to: 0 - type: integer 
+	Parameter c_a_type bound to: 0 - type: integer 
+	Parameter c_b_type bound to: 0 - type: integer 
+	Parameter c_baat bound to: 64 - type: integer 
+	Parameter multsign bound to: 2 - type: integer 
+	Parameter c_output_width bound to: 96 - type: integer 
+INFO: [Synth 8-3491] module 'xilinx_transfer_function_1_mult_gen_v12_0_i1' declared at 'C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/.Xil/Vivado-13916-DESKTOP-BJG36E9/realtime/xilinx_transfer_function_1_mult_gen_v12_0_i1_stub.vhdl:5' bound to instance 'core_instance1' of component 'xilinx_transfer_function_1_mult_gen_v12_0_i1' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:535]
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1_mult_gen_v12_0_i1' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/.Xil/Vivado-13916-DESKTOP-BJG36E9/realtime/xilinx_transfer_function_1_mult_gen_v12_0_i1_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'xilinx_transfer_function_1_xlmult__parameterized0' (5#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:451]
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1_xladdsub' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:207]
+	Parameter core_name0 bound to: xilinx_transfer_function_1_c_addsub_v12_0_i0 - type: string 
+	Parameter a_width bound to: 64 - type: integer 
+	Parameter a_bin_pt bound to: 48 - type: integer 
+	Parameter a_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 64 - type: integer 
+	Parameter b_bin_pt bound to: 48 - type: integer 
+	Parameter b_arith bound to: 1 - type: integer 
+	Parameter s_width bound to: 64 - type: integer 
+	Parameter s_bin_pt bound to: 48 - type: integer 
+	Parameter s_arith bound to: 1 - type: integer 
+	Parameter full_s_width bound to: 65 - type: integer 
+	Parameter full_s_arith bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 65 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xilinx_transfer_function_1_c_addsub_v12_0_i0' declared at 'C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/.Xil/Vivado-13916-DESKTOP-BJG36E9/realtime/xilinx_transfer_function_1_c_addsub_v12_0_i0_stub.vhdl:5' bound to instance 'core_instance0' of component 'xilinx_transfer_function_1_c_addsub_v12_0_i0' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:288]
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1_c_addsub_v12_0_i0' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/.Xil/Vivado-13916-DESKTOP-BJG36E9/realtime/xilinx_transfer_function_1_c_addsub_v12_0_i0_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'xilinx_transfer_function_1_xladdsub' (6#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:207]
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1_xladdsub__parameterized0' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:207]
+	Parameter core_name0 bound to: xilinx_transfer_function_1_c_addsub_v12_0_i1 - type: string 
+	Parameter a_width bound to: 64 - type: integer 
+	Parameter a_bin_pt bound to: 48 - type: integer 
+	Parameter a_arith bound to: 1 - type: integer 
+	Parameter b_width bound to: 64 - type: integer 
+	Parameter b_bin_pt bound to: 32 - type: integer 
+	Parameter b_arith bound to: 1 - type: integer 
+	Parameter s_width bound to: 64 - type: integer 
+	Parameter s_bin_pt bound to: 48 - type: integer 
+	Parameter s_arith bound to: 2 - type: integer 
+	Parameter full_s_width bound to: 81 - type: integer 
+	Parameter full_s_arith bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter latency bound to: 0 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter c_latency bound to: 0 - type: integer 
+	Parameter c_output_width bound to: 81 - type: integer 
+	Parameter c_has_c_out bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xilinx_transfer_function_1_c_addsub_v12_0_i1' declared at 'C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/.Xil/Vivado-13916-DESKTOP-BJG36E9/realtime/xilinx_transfer_function_1_c_addsub_v12_0_i1_stub.vhdl:5' bound to instance 'core_instance1' of component 'xilinx_transfer_function_1_c_addsub_v12_0_i1' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:297]
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1_c_addsub_v12_0_i1' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/.Xil/Vivado-13916-DESKTOP-BJG36E9/realtime/xilinx_transfer_function_1_c_addsub_v12_0_i1_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'xilinx_transfer_function_1_xladdsub__parameterized0' (6#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:207]
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1_xlregister' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:75]
+	Parameter d_width bound to: 64 - type: integer 
+	Parameter init_value bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter width bound to: 64 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter latency bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'synth_reg_w_init' declared at 'C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:31' bound to instance 'synth_reg_inst' of component 'synth_reg_w_init' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'synth_reg_w_init__parameterized1' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:47]
+	Parameter width bound to: 64 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter latency bound to: 1 - type: integer 
+	Parameter width bound to: 64 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'single_reg_w_init' declared at 'C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:22' bound to instance 'reg_comp' of component 'single_reg_w_init' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'single_reg_w_init__parameterized1' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:37]
+	Parameter width bound to: 64 - type: integer 
+	Parameter init_index bound to: 2 - type: integer 
+	Parameter init_value bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-113] binding component instance 'fdre_comp' to cell 'FDRE' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'single_reg_w_init__parameterized1' (6#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/single_reg_w_init.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'synth_reg_w_init__parameterized1' (6#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/synth_reg_w_init.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'xilinx_transfer_function_1_xlregister' (7#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1_xlmult__parameterized1' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:451]
+	Parameter core_name0 bound to: xilinx_transfer_function_1_mult_gen_v12_0_i2 - type: string 
+	Parameter a_width bound to: 64 - type: integer 
+	Parameter a_bin_pt bound to: 32 - type: integer 
+	Parameter a_arith bound to: 2 - type: integer 
+	Parameter b_width bound to: 64 - type: integer 
+	Parameter b_bin_pt bound to: 32 - type: integer 
+	Parameter b_arith bound to: 2 - type: integer 
+	Parameter p_width bound to: 64 - type: integer 
+	Parameter p_bin_pt bound to: 48 - type: integer 
+	Parameter p_arith bound to: 1 - type: integer 
+	Parameter quantization bound to: 1 - type: integer 
+	Parameter overflow bound to: 1 - type: integer 
+	Parameter extra_registers bound to: 0 - type: integer 
+	Parameter c_a_width bound to: 64 - type: integer 
+	Parameter c_b_width bound to: 64 - type: integer 
+	Parameter c_type bound to: 0 - type: integer 
+	Parameter c_a_type bound to: 0 - type: integer 
+	Parameter c_b_type bound to: 0 - type: integer 
+	Parameter c_baat bound to: 64 - type: integer 
+	Parameter multsign bound to: 2 - type: integer 
+	Parameter c_output_width bound to: 128 - type: integer 
+INFO: [Synth 8-3491] module 'xilinx_transfer_function_1_mult_gen_v12_0_i2' declared at 'C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/.Xil/Vivado-13916-DESKTOP-BJG36E9/realtime/xilinx_transfer_function_1_mult_gen_v12_0_i2_stub.vhdl:5' bound to instance 'core_instance2' of component 'xilinx_transfer_function_1_mult_gen_v12_0_i2' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:544]
+INFO: [Synth 8-638] synthesizing module 'xilinx_transfer_function_1_mult_gen_v12_0_i2' [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/.Xil/Vivado-13916-DESKTOP-BJG36E9/realtime/xilinx_transfer_function_1_mult_gen_v12_0_i2_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'xilinx_transfer_function_1_xlmult__parameterized1' (7#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1_entity_declarations.vhd:451]
+INFO: [Synth 8-256] done synthesizing module 'xilinx_transfer_function_1_struct' (8#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'xilinx_transfer_function_1' (9#1) [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/sources_1/imports/sysgen/xilinx_transfer_function_1.vhd:283]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1523.617 ; gain = 94.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1523.617 ; gain = 94.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1523.617 ; gain = 94.812
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.gen/sources_1/ip/xilinx_transfer_function_1_mult_gen_v12_0_i0/xilinx_transfer_function_1_mult_gen_v12_0_i0.dcp' for cell 'xilinx_transfer_function_1_struct/multiply2/comp0.core_instance0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.gen/sources_1/ip/xilinx_transfer_function_1_mult_gen_v12_0_i1/xilinx_transfer_function_1_mult_gen_v12_0_i1.dcp' for cell 'xilinx_transfer_function_1_struct/multiply3/comp1.core_instance1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.gen/sources_1/ip/xilinx_transfer_function_1_c_addsub_v12_0_i0/xilinx_transfer_function_1_c_addsub_v12_0_i0.dcp' for cell 'xilinx_transfer_function_1_struct/adder1/comp0.core_instance0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.gen/sources_1/ip/xilinx_transfer_function_1_c_addsub_v12_0_i1/xilinx_transfer_function_1_c_addsub_v12_0_i1.dcp' for cell 'xilinx_transfer_function_1_struct/adder2/comp1.core_instance1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.gen/sources_1/ip/xilinx_transfer_function_1_mult_gen_v12_0_i2/xilinx_transfer_function_1_mult_gen_v12_0_i2.dcp' for cell 'xilinx_transfer_function_1_struct/multiply1/comp2.core_instance2'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.124 . Memory (MB): peak = 1523.617 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 70 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/constrs_1/imports/sysgen/xilinx_transfer_function_1_clock.xdc]
+Finished Parsing XDC File [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/constrs_1/imports/sysgen/xilinx_transfer_function_1_clock.xdc]
+Parsing XDC File [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/constrs_1/imports/sysgen/xilinx_transfer_function_1.xdc]
+Finished Parsing XDC File [C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.srcs/constrs_1/imports/sysgen/xilinx_transfer_function_1.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1655.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:32 ; elapsed = 00:00:20 . Memory (MB): peak = 1742.465 ; gain = 313.660
+118 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:25 . Memory (MB): peak = 1742.465 ; gain = 313.660
+report_methodology -name ultrafast_methodology_1
+Command: report_methodology -name ultrafast_methodology_1
+INFO: [DRC 23-133] Running Methodology with 2 threads
+report_methodology completed successfully
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+create_drc_ruledeck ruledeck_1
+add_drc_checks -ruledeck ruledeck_1 [get_drc_checks {CHECK-1 PPURQ-1 VDUCN-2 VDUCN-1 IOSR-1 IOPL-6 IOPL-5 IOPL-4 IOPL-3 IOPL-2 IOPL-1 IOPCPR-2 IOPCPR-1 IODI-1 LTNM-1 LOCE-1 LHNM-1 MIG-554 MIG-54 MIG-553 MIG-552 MIG-53 MIG-52 MIG-560 MIG-557 MIG-556 MIG-550 MIG-547 MIG-546 MIG-545 MIG-60 MIG-57 MIG-56 MIG-50 MIG-47 MIG-46 MIG-45 MIG-760 MIG-543 MIG-542 MIG-43 MIG-42 MIG-540 MIG-533 MIG-40 MIG-33 MIG-532 MIG-531 MIG-32 MIG-31 MIG-569 MIG-555 MIG-541 MIG-529 MIG-69 MIG-55 MIG-41 MIG-29 MIG-793 MIG-792 MIG-791 MIG-790 MIG-789 MIG-788 MIG-786 MIG-785 MIG-784 MIG-783 MIG-782 MIG-525 MIG-519 MIG-516 MIG-78 MIG-25 MIG-19 MIG-16 MIG-514 MIG-513 MIG-512 MIG-14 MIG-13 MIG-12 MIG-787 MIG-742 MIG-740 MIG-572 MIG-571 MIG-570 MIG-568 MIG-567 MIG-566 MIG-565 MIG-564 MIG-563 MIG-562 MIG-558 MIG-549 MIG-548 MIG-544 MIG-539 MIG-538 MIG-537 MIG-536 MIG-535 MIG-534 MIG-530 MIG-528 MIG-527 MIG-526 MIG-520 MIG-518 MIG-515 MIG-511 MIG-510 MIG-509 MIG-508 MIG-76 MIG-74 MIG-73 MIG-72 MIG-71 MIG-70 MIG-68 MIG-67 MIG-66 MIG-65 MIG-64 MIG-63 MIG-62 MIG-58 MIG-49 MIG-48 MIG-44 MIG-39 MIG-38 MIG-37 MIG-36 MIG-35 MIG-34 MIG-30 MIG-28 MIG-27 MIG-26 MIG-20 MIG-18 MIG-15 MIG-11 MIG-10 MIG-9 MIG-8 MIG-561 MIG-559 MIG-551 MIG-524 MIG-523 MIG-522 MIG-521 MIG-517 MIG-507 MIG-506 MIG-505 MIG-504 MIG-503 MIG-502 MIG-501 MIG-77 MIG-75 MIG-61 MIG-59 MIG-51 MIG-24 MIG-23 MIG-22 MIG-21 MIG-17 MIG-7 MIG-6 MIG-5 MIG-4 MIG-3 MIG-2 MIG-1 VCCOSENSEMODE-4 VCCOSENSEMODE-3 VCCOSENSEMODE-2 VCCOSENSEMODE-1 VCCAUXIO-5 VCCAUXIO-4 VCCAUXIO-3 VCCAUXIO-2 VCCAUXIO-1 VCCAUX-1 UCIO-1 PRST-1 NSTD-2 NSTD-1 PORTPROP-5 PORTPROP-4 PORTPROP-3 PORTPROP-2 PORTPROP-1 InOutTerm-11 InOutTerm-10 InOutTerm-9 InOutTerm-8 InOutTerm-7 InOutTerm-6 InOutTerm-5 InOutTerm-4 InOutTerm-3 InOutTerm-2 InOutTerm-1 IVREF-4 IVREF-3 IVREF-2 IVREF-1 IOPCMGT-1 LVDS-1 IOPCSLR-2 IOPCSLR-1 IOPCMGT-2 IOPCBT-3 IOPCBT-2 IOPCBT-1 IOCTMGT-1 IOCNT-2 IOCNT-1 IOBUSSLRC-1 DCICPC-1 DCICIOSTD-3 DCICIOSTD-2 DCICIOSTD-1 DCIC-3 DCIC-2 DCIC-1 CFGM-1 CFGBVS-12 CFGBVS-11 CFGBVS-10 CFGBVS-9 CFGBVS-8 CFGBVS-7 CFGBVS-6 CFGBVS-5 CFGBVS-4 CFGBVS-3 CFGBVS-2 CFGBVS-1 VCCAUX1-2 VCCAUX1-1 DIFFSTDLIMIT-1 DIFFISTDSlew-1 DIFFISTDDrv-1 DIFFISTD-1 DCIP-2 DCIP-1 BIVT-1 BIVRU-1 BIVR-1 BIVC-1 BIVB-1 BISLIM-1 BIIVRC-1 BGIVC-1 PDCY-4 PDCY-2 MBUFCN-2 MBUFCN-1 RPBF-7 RPBF-5 RPBF-4 RPBF-3 RPBF-2 IOSTDTYPE-1 IODIR-1 GTYCHK-2 GTYCHK-1 GTHCHK-1}]
+report_drc -name drc_1 -ruledecks {ruledeck_1}
+Command: report_drc -name drc_1 -ruledecks ruledeck_1
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+report_drc completed successfully
+delete_drc_ruledeck ruledeck_1
+report_methodology -name ultrafast_methodology_2 -checks {ULMTCS-2 ULMTCS-1 HPDR-2 HPDR-1 RRRS-1 RROR-1 ROAS-1 RMOR-1 RMIR-1 RFTL-1 RFRC-1 RFRA-1 RFFI-1 RFFH-1 RFCF-1 RCCL-1 RCBG-1 RAMP-1 RAMF-1 RAMD-1 RAKN-1}
+Command: report_methodology -name ultrafast_methodology_2 -checks {ULMTCS-2 ULMTCS-1 HPDR-2 HPDR-1 RRRS-1 RROR-1 ROAS-1 RMOR-1 RMIR-1 RFTL-1 RFRC-1 RFRA-1 RFFI-1 RFFH-1 RFCF-1 RCCL-1 RCBG-1 RAMP-1 RAMF-1 RAMD-1 RAKN-1}
+INFO: [DRC 23-133] Running Methodology with 2 threads
+report_methodology completed successfully
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 25 19:20:53 2021...

@@ -1,0 +1,112 @@
+# Vivado resource utilization data is represented in anytable format
+# The data will be consumed by Resource Utilization flow in SysGen.
+
+{
+   'Design_Information' => [
+     { 
+        'PART' => 'xc7a35tcpg236-1',
+        'Vivado_Stage' => 'Post Synthesis',
+        'Top_Module' => 'func1',
+        'HDL_Language' => 'vhdl',
+        'Netlist_Crossprobe_File' => 'func1.vhd.at',
+     },
+   ],
+   'Device_Resources' => [
+     { 
+        'BRAMs' => '50',
+        'DSPs' => '90',
+        'Registers' => '41600',
+        'LUTs' => '20800',
+     },
+   ],
+   'Resource_Utilization_Data' => [
+     {
+          'File_Name' => 'func1.vhd',
+          'Line_Num' => 'Line_81',
+          'Hier_Name' => 'func1_bd_wrapper.func1_bd_i.func1_1.U0.func1_struct.adder1',
+          'Cell_Name' => 'func1_bd_i/func1_1/U0/func1_struct/adder1',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 16,
+                    'LUT2' => 61,
+                    'Total_LUTs' => 61,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func1.vhd',
+          'Line_Num' => 'Line_112',
+          'Hier_Name' => 'func1_bd_wrapper.func1_bd_i.func1_1.U0.func1_struct.adder2',
+          'Cell_Name' => 'func1_bd_i/func1_1/U0/func1_struct/adder2',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 22,
+                    'LUT2' => 64,
+                    'Total_LUTs' => 64,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func1.vhd',
+          'Line_Num' => 'Line_54',
+          'Hier_Name' => 'func1_bd_wrapper.func1_bd_i.func1_1.U0.func1_struct.multiply1',
+          'Cell_Name' => 'func1_bd_i/func1_1/U0/func1_struct/multiply1',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 39,
+                    'LUT2' => 124,
+                    'LUT1' => 10,
+                    'LUT3' => 3,
+                    'LUT4' => 7,
+                    'Total_LUTs' => 144,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func1.vhd',
+          'Line_Num' => 'Line_63',
+          'Hier_Name' => 'func1_bd_wrapper.func1_bd_i.func1_1.U0.func1_struct.multiply3',
+          'Cell_Name' => 'func1_bd_i/func1_1/U0/func1_struct/multiply3',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 14,
+                    'LUT2' => 54,
+                    'LUT1' => 1,
+                    'DSP48E1' => 4,
+                    'Total_LUTs' => 55,
+                    'Total_DSPs' => 4,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func1.vhd',
+          'Line_Num' => 'Line_72',
+          'Hier_Name' => 'func1_bd_wrapper.func1_bd_i.func1_1.U0.func1_struct.multiply4',
+          'Cell_Name' => 'func1_bd_i/func1_1/U0/func1_struct/multiply4',
+          'Primitives' => [ 
+               {
+                    'DSP48E1' => 2,
+                    'Total_DSPs' => 2,
+               },
+          ], 
+     },
+     { 
+          'File_Name' => 'func1.vhd',
+          'Line_Num' => 'Line_000',
+          'Hier_Name' => 'func1',
+          'Cell_Name' => 'func1',
+          'Primitives' => [ 
+               { 
+                    'CARRY4' => 91,
+                    'LUT2' => 303,
+                    'LUT1' => 11,
+                    'LUT3' => 3,
+                    'LUT4' => 7,
+                    'DSP48E1' => 6,
+                    'Total_LUTs' => 324,
+                    'Total_DSPs' => 6,
+               },
+          ],
+     },
+   ],
+} 

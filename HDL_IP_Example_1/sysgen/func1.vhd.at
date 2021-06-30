@@ -1,0 +1,67 @@
+{
+  'Line_112' => {
+    'CodeInstance' => 'func1_struct/adder2',
+    'Instance' => 'adder2',
+    'SimulinkInstance' => 'func1/adder2'
+  },
+  'Line_143' => {
+    'CodeInstance' => 'func1_struct/ud1',
+    'Instance' => 'ud1',
+    'SimulinkInstance' => 'func1/ud1'
+  },
+  'Line_156' => {
+    'CodeInstance' => 'func1_struct/ud2',
+    'Instance' => 'ud2',
+    'SimulinkInstance' => 'func1/ud2'
+  },
+  'Line_186' => {
+    'CodeInstance' => 'func1_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  },
+  'Line_217' => {
+    'CodeInstance' => 'func1_default_clock_driver',
+    'Instance' => 'func1_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_225' => {
+    'CodeInstance' => 'func1_struct',
+    'Instance' => 'func1_struct',
+    'SimulinkInstance' => 'func1'
+  },
+  'Line_33' => {
+    'CodeInstance' => 'func1_struct/constant1',
+    'Instance' => 'constant1',
+    'SimulinkInstance' => 'func1/Constant1'
+  },
+  'Line_40' => {
+    'CodeInstance' => 'func1_struct/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'func1/Constant2'
+  },
+  'Line_47' => {
+    'CodeInstance' => 'func1_struct/constant3',
+    'Instance' => 'constant3',
+    'SimulinkInstance' => 'func1/Constant3'
+  },
+  'Line_54' => {
+    'CodeInstance' => 'func1_struct/multiply1',
+    'Instance' => 'multiply1',
+    'SimulinkInstance' => 'func1/Multiply1'
+  },
+  'Line_63' => {
+    'CodeInstance' => 'func1_struct/multiply3',
+    'Instance' => 'multiply3',
+    'SimulinkInstance' => 'func1/Multiply3'
+  },
+  'Line_72' => {
+    'CodeInstance' => 'func1_struct/multiply4',
+    'Instance' => 'multiply4',
+    'SimulinkInstance' => 'func1/Multiply4'
+  },
+  'Line_81' => {
+    'CodeInstance' => 'func1_struct/adder1',
+    'Instance' => 'adder1',
+    'SimulinkInstance' => 'func1/adder1'
+  }
+}

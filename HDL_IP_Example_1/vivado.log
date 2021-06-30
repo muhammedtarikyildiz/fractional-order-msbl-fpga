@@ -1,0 +1,296 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jun 25 23:10:29 2021
+# Process ID: 7160
+# Current directory: C:/Users/TARIK/Desktop/HDL_IP_Example_1
+# Command line: vivado.exe -mode batch -source ProjectGeneration.tcl -notrace
+# Log file: C:/Users/TARIK/Desktop/HDL_IP_Example_1/vivado.log
+# Journal file: C:/Users/TARIK/Desktop/HDL_IP_Example_1\vivado.jou
+#-----------------------------------------------------------
+source ProjectGeneration.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+WARNING: [Coretcl 2-176] No IPs found
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'func1_c_addsub_v12_0_i0' to 'func1_c_addsub_v12_0_i0' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '00000000000000000000000000000000000000000000000000000000000000000' to '0' has been ignored for IP 'func1_c_addsub_v12_0_i0'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'func1_c_addsub_v12_0_i0'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'func1_c_addsub_v12_0_i0'
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'func1_c_addsub_v12_0_i1' to 'func1_c_addsub_v12_0_i1' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000' to '0' has been ignored for IP 'func1_c_addsub_v12_0_i1'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'func1_c_addsub_v12_0_i1'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'func1_c_addsub_v12_0_i1'
+IP Repository Located at : C:/Xilinx/Vivado/2021.1/data/ip
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+Adding File c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.srcs/sources_1/ip/func1_c_addsub_v12_0_i0/func1_c_addsub_v12_0_i0.xci
+Adding File c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.srcs/sources_1/ip/func1_c_addsub_v12_0_i1/func1_c_addsub_v12_0_i1.xci
+Adding File C:/Users/TARIK/Desktop/HDL_IP_Example_1/sysgen/func1.xdc
+Adding File C:/Users/TARIK/Desktop/HDL_IP_Example_1/sysgen/func1.htm
+Adding File C:/Users/TARIK/Desktop/HDL_IP_Example_1/sysgen/func1_tb.vhd
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-3480] slave: Portmap direction mismatched between component port 'gateway_out2' and definition port 'DATA'.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog'.)
+0
+Wrote  : <C:\Users\TARIK\Desktop\HDL_IP_Example_1\ip_catalog\func1.srcs\sources_1\bd\func1_bd\func1_bd.bd> 
+WARNING: [BD 5-232] No interface pins matched 'get_bd_intf_pins /func1_1/*'
+WARNING: [BD 5-232] No interface pins matched 'get_bd_intf_pins /func1_1/*'
+WARNING: [BD 5-670] It is required to provide a frequency value for a user created input clock port. Please use the <-freq_hz $freq_val> argument of the create_bd_port command. ie create_bd_port -dir I -type clk -freq_hz 100000000 clkin
+WARNING: [BD 5-232] No interface pins matched 'get_bd_intf_pins /func1_1/*'
+Wrote  : <C:\Users\TARIK\Desktop\HDL_IP_Example_1\ip_catalog\func1.srcs\sources_1\bd\func1_bd\func1_bd.bd> 
+update_compile_order: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1122.598 ; gain = 0.000
+INFO: Setting More Options property of synthesis to -mode out_of_context.
+INFO: To enable analysis of IP Catalog flow results the top module is set to func1_stub.
+INFO: SG_Analyzer -- Running synth_1 ...
+INFO: [BD 41-1662] The design 'func1_bd.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.gen/sources_1/bd/func1_bd/synth/func1_bd.vhd
+VHDL Output written to : C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.gen/sources_1/bd/func1_bd/sim/func1_bd.vhd
+VHDL Output written to : C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.gen/sources_1/bd/func1_bd/hdl/func1_bd_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block func1_1 .
+Exporting to file C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.gen/sources_1/bd/func1_bd/hw_handoff/func1_bd.hwh
+Generated Block Design Tcl file C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.gen/sources_1/bd/func1_bd/hw_handoff/func1_bd_bd.tcl
+Generated Hardware Definition File C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.gen/sources_1/bd/func1_bd/synth/func1_bd.hwdef
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'func1_0'...
+[Fri Jun 25 23:11:02 2021] Launched func1_bd_func1_1_0_synth_1, func1_0_synth_1...
+Run output will be captured here:
+func1_bd_func1_1_0_synth_1: C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.runs/func1_bd_func1_1_0_synth_1/runme.log
+func1_0_synth_1: C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.runs/func1_0_synth_1/runme.log
+[Fri Jun 25 23:11:02 2021] Launched synth_1...
+Run output will be captured here: C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1122.598 ; gain = 0.000
+[Fri Jun 25 23:11:02 2021] Waiting for synth_1 to finish...
+
+*** Running vivado
+    with args -log func1_bd_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source func1_bd_wrapper.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source func1_bd_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.runs/synth_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+Command: synth_design -top func1_bd_wrapper -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9148
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'func1_bd_wrapper' [C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.srcs/sources_1/imports/hdl/func1_bd_wrapper.vhd:22]
+INFO: [Synth 8-3491] module 'func1_bd' declared at 'c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.gen/sources_1/bd/func1_bd/synth/func1_bd.vhd:14' bound to instance 'func1_bd_i' of component 'func1_bd' [C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.srcs/sources_1/imports/hdl/func1_bd_wrapper.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'func1_bd' [c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.gen/sources_1/bd/func1_bd/synth/func1_bd.vhd:26]
+INFO: [Synth 8-3491] module 'func1_bd_func1_1_0' declared at 'C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.runs/synth_1/.Xil/Vivado-12800-DESKTOP-BJG36E9/realtime/func1_bd_func1_1_0_stub.vhdl:5' bound to instance 'func1_1' of component 'func1_bd_func1_1_0' [c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.gen/sources_1/bd/func1_bd/synth/func1_bd.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'func1_bd_func1_1_0' [C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.runs/synth_1/.Xil/Vivado-12800-DESKTOP-BJG36E9/realtime/func1_bd_func1_1_0_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'func1_bd' (1#1) [c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.gen/sources_1/bd/func1_bd/synth/func1_bd.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'func1_bd_wrapper' (2#1) [C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.srcs/sources_1/imports/hdl/func1_bd_wrapper.vhd:22]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1121.523 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.gen/sources_1/bd/func1_bd/ip/func1_bd_func1_1_0/func1_bd_func1_1_0/func1_bd_func1_1_0_in_context.xdc] for cell 'func1_bd_i/func1_1'
+Finished Parsing XDC File [c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.gen/sources_1/bd/func1_bd/ip/func1_bd_func1_1_0/func1_bd_func1_1_0/func1_bd_func1_1_0_in_context.xdc] for cell 'func1_bd_i/func1_1'
+Parsing XDC File [C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.srcs/constrs_1/imports/sysgen/func1_clock.xdc]
+Finished Parsing XDC File [C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.srcs/constrs_1/imports/sysgen/func1_clock.xdc]
+Parsing XDC File [C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.srcs/constrs_1/imports/sysgen/func1.xdc]
+Finished Parsing XDC File [C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.srcs/constrs_1/imports/sysgen/func1.xdc]
+Parsing XDC File [C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1121.523 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for func1_bd_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for func1_bd_i/func1_1. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------+----------+
+|      |BlackBox name      |Instances |
++------+-------------------+----------+
+|1     |func1_bd_func1_1_0 |         1|
++------+-------------------+----------+
+
+Report Cell Usage: 
++------+------------------------+------+
+|      |Cell                    |Count |
++------+------------------------+------+
+|1     |func1_bd_func1_1_0_bbox |     1|
++------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1121.523 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:35 . Memory (MB): peak = 1121.523 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1121.523 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1121.523 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1121.523 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 1b35e023
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 1121.523 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/func1.runs/synth_1/func1_bd_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file func1_bd_wrapper_utilization_synth.rpt -pb func1_bd_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 25 23:13:20 2021...
+[Fri Jun 25 23:13:23 2021] synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:00 ; elapsed = 00:02:21 . Memory (MB): peak = 1122.598 ; gain = 0.000
+INFO: SG_Analyzer -- Timing paths data will be collected from the post-synthesis design ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port "clk" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew
+Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design
+get_timing_paths: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1368.188 ; gain = 245.590
+WARNING: [Common 17-673] Cannot get value of property 'ULTRA_RAMS' because this property is not valid in conjunction with other property setting on this object.
+INFO: Setting More Options property of synthesis to empty string.
+INFO: For IP Catalog flow the top module is reverted back to func1_bd_wrapper after collecting results for analysis.
+INFO: SG_Analyzer -- Collected Vivado timing paths and resource utilization information ...
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 25 23:13:42 2021...

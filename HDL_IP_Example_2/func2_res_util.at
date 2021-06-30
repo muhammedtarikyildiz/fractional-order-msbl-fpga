@@ -1,0 +1,199 @@
+# Vivado resource utilization data is represented in anytable format
+# The data will be consumed by Resource Utilization flow in SysGen.
+
+{
+   'Design_Information' => [
+     { 
+        'PART' => 'xc7a35tcpg236-1',
+        'Vivado_Stage' => 'Post Synthesis',
+        'Top_Module' => 'func2',
+        'HDL_Language' => 'vhdl',
+        'Netlist_Crossprobe_File' => 'func2.vhd.at',
+     },
+   ],
+   'Device_Resources' => [
+     { 
+        'BRAMs' => '50',
+        'DSPs' => '90',
+        'Registers' => '41600',
+        'LUTs' => '20800',
+     },
+   ],
+   'Resource_Utilization_Data' => [
+     {
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_236',
+          'Hier_Name' => 'func2_bd_wrapper.func2_bd_i.func2_1.U0.func2_struct.adder1',
+          'Cell_Name' => 'func2_bd_i/func2_1/U0/func2_struct/adder1',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 16,
+                    'LUT2' => 128,
+                    'Total_LUTs' => 128,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_267',
+          'Hier_Name' => 'func2_bd_wrapper.func2_bd_i.func2_1.U0.func2_struct.adder2',
+          'Cell_Name' => 'func2_bd_i/func2_1/U0/func2_struct/adder2',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 16,
+                    'LUT2' => 48,
+                    'Total_LUTs' => 48,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_51',
+          'Hier_Name' => 'func2_bd_wrapper.func2_bd_i.func2_1.U0.func2_struct.multiply1',
+          'Cell_Name' => 'func2_bd_i/func2_1/U0/func2_struct/multiply1',
+          'Primitives' => [ 
+               {
+                    'DSP48E1' => 13,
+                    'Total_DSPs' => 13,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_88',
+          'Hier_Name' => 'func2_bd_wrapper.func2_bd_i.func2_1.U0.func2_struct.multiply2',
+          'Cell_Name' => 'func2_bd_i/func2_1/U0/func2_struct/multiply2',
+          'Primitives' => [ 
+               {
+                    'DSP48E1' => 8,
+                    'Total_DSPs' => 8,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_125',
+          'Hier_Name' => 'func2_bd_wrapper.func2_bd_i.func2_1.U0.func2_struct.multiply3',
+          'Cell_Name' => 'func2_bd_i/func2_1/U0/func2_struct/multiply3',
+          'Primitives' => [ 
+               {
+                    'DSP48E1' => 8,
+                    'Total_DSPs' => 8,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_162',
+          'Hier_Name' => 'func2_bd_wrapper.func2_bd_i.func2_1.U0.func2_struct.multiply4',
+          'Cell_Name' => 'func2_bd_i/func2_1/U0/func2_struct/multiply4',
+          'Primitives' => [ 
+               {
+                    'DSP48E1' => 8,
+                    'Total_DSPs' => 8,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_199',
+          'Hier_Name' => 'func2_bd_wrapper.func2_bd_i.func2_1.U0.func2_struct.multiply5',
+          'Cell_Name' => 'func2_bd_i/func2_1/U0/func2_struct/multiply5',
+          'Primitives' => [ 
+               {
+                    'DSP48E1' => 8,
+                    'LUT2' => 48,
+                    'Total_DSPs' => 8,
+                    'Total_LUTs' => 48,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_298',
+          'Hier_Name' => 'func2_bd_wrapper.func2_bd_i.func2_1.U0.func2_struct.substract1',
+          'Cell_Name' => 'func2_bd_i/func2_1/U0/func2_struct/substract1',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 16,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_307',
+          'Hier_Name' => 'func2_bd_wrapper.func2_bd_i.func2_1.U0.func2_struct.substract2',
+          'Cell_Name' => 'func2_bd_i/func2_1/U0/func2_struct/substract2',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 12,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_316',
+          'Hier_Name' => 'func2_bd_wrapper.func2_bd_i.func2_1.U0.func2_struct.ud1',
+          'Cell_Name' => 'func2_bd_i/func2_1/U0/func2_struct/ud1',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 64,
+                    'Total_Registers' => 64,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_329',
+          'Hier_Name' => 'func2_bd_wrapper.func2_bd_i.func2_1.U0.func2_struct.ud2',
+          'Cell_Name' => 'func2_bd_i/func2_1/U0/func2_struct/ud2',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 64,
+                    'Total_Registers' => 64,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_342',
+          'Hier_Name' => 'func2_bd_wrapper.func2_bd_i.func2_1.U0.func2_struct.ud4',
+          'Cell_Name' => 'func2_bd_i/func2_1/U0/func2_struct/ud4',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 64,
+                    'Total_Registers' => 64,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_355',
+          'Hier_Name' => 'func2_bd_wrapper.func2_bd_i.func2_1.U0.func2_struct.ud5',
+          'Cell_Name' => 'func2_bd_i/func2_1/U0/func2_struct/ud5',
+          'Primitives' => [ 
+               {
+                    'FDRE' => 64,
+                    'Total_Registers' => 64,
+               },
+          ], 
+     },
+     { 
+          'File_Name' => 'func2.vhd',
+          'Line_Num' => 'Line_000',
+          'Hier_Name' => 'func2',
+          'Cell_Name' => 'func2',
+          'Primitives' => [ 
+               { 
+                    'CARRY4' => 60,
+                    'LUT2' => 224,
+                    'DSP48E1' => 45,
+                    'FDRE' => 256,
+                    'Total_LUTs' => 224,
+                    'Total_DSPs' => 45,
+                    'Total_Registers' => 256,
+               },
+          ],
+     },
+   ],
+} 

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jun 25 19:30:29 2021
+# Process ID: 10172
+# Current directory: C:/Users/TARIK/Desktop/HDL/hdl_netlist
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8544 C:\Users\TARIK\Desktop\HDL\hdl_netlist\xilinx_transfer_function.xpr
+# Log file: C:/Users/TARIK/Desktop/HDL/hdl_netlist/vivado.log
+# Journal file: C:/Users/TARIK/Desktop/HDL/hdl_netlist\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/TARIK/Desktop/HDL/hdl_netlist/xilinx_transfer_function.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:14 . Memory (MB): peak = 1432.223 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Fri Jun 25 19:31:40 2021] Launched synth_1...
+Run output will be captured here: C:/Users/TARIK/Desktop/HDL/hdl_netlist/xilinx_transfer_function.runs/synth_1/runme.log
+[Fri Jun 25 19:31:41 2021] Launched impl_1...
+Run output will be captured here: C:/Users/TARIK/Desktop/HDL/hdl_netlist/xilinx_transfer_function.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 25 19:35:22 2021...

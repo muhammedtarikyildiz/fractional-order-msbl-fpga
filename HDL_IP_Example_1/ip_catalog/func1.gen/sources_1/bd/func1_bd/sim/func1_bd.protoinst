@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"func1_bd": {
+			"proto_instances": {
+			}
+		}
+	}
+}

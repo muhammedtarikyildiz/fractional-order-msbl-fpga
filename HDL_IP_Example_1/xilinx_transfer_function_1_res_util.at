@@ -1,0 +1,118 @@
+# Vivado resource utilization data is represented in anytable format
+# The data will be consumed by Resource Utilization flow in SysGen.
+
+{
+   'Design_Information' => [
+     { 
+        'PART' => 'xc7a35tcpg236-1',
+        'Vivado_Stage' => 'Post Synthesis',
+        'Top_Module' => 'xilinx_transfer_function_1',
+        'HDL_Language' => 'vhdl',
+        'Netlist_Crossprobe_File' => 'xilinx_transfer_function_1.vhd.at',
+     },
+   ],
+   'Device_Resources' => [
+     { 
+        'BRAMs' => '50',
+        'DSPs' => '90',
+        'Registers' => '41600',
+        'LUTs' => '20800',
+     },
+   ],
+   'Resource_Utilization_Data' => [
+     {
+          'File_Name' => 'xilinx_transfer_function_1.vhd',
+          'Line_Num' => 'Line_42',
+          'Hier_Name' => 'xilinx_transfer_function_1.xilinx_transfer_function_1_struct.adder1',
+          'Cell_Name' => 'xilinx_transfer_function_1_struct/adder1',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 17,
+                    'LUT2' => 65,
+                    'Total_LUTs' => 65,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'xilinx_transfer_function_1.vhd',
+          'Line_Num' => 'Line_94',
+          'Hier_Name' => 'xilinx_transfer_function_1.xilinx_transfer_function_1_struct.adder2',
+          'Cell_Name' => 'xilinx_transfer_function_1_struct/adder2',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 25,
+                    'LUT2' => 97,
+                    'Total_LUTs' => 97,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'xilinx_transfer_function_1.vhd',
+          'Line_Num' => 'Line_147',
+          'Hier_Name' => 'xilinx_transfer_function_1.xilinx_transfer_function_1_struct.multiply1',
+          'Cell_Name' => 'xilinx_transfer_function_1_struct/multiply1',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 12,
+                    'LUT2' => 47,
+                    'DSP48E1' => 2,
+                    'Total_LUTs' => 47,
+                    'Total_DSPs' => 2,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'xilinx_transfer_function_1.vhd',
+          'Line_Num' => 'Line_33',
+          'Hier_Name' => 'xilinx_transfer_function_1.xilinx_transfer_function_1_struct.multiply3',
+          'Cell_Name' => 'xilinx_transfer_function_1_struct/multiply3',
+          'Primitives' => [ 
+               {
+                    'CARRY4' => 16,
+                    'LUT4' => 40,
+                    'LUT3' => 15,
+                    'LUT5' => 2,
+                    'LUT2' => 17,
+                    'LUT6' => 31,
+                    'DSP48E1' => 8,
+                    'Total_LUTs' => 105,
+                    'Total_DSPs' => 8,
+               },
+          ], 
+     },
+     {
+          'File_Name' => 'xilinx_transfer_function_1.vhd',
+          'Line_Num' => 'Line_138',
+          'Hier_Name' => 'xilinx_transfer_function_1.xilinx_transfer_function_1_struct.multiply4',
+          'Cell_Name' => 'xilinx_transfer_function_1_struct/multiply4',
+          'Primitives' => [ 
+               {
+                    'LUT2' => 47,
+                    'CARRY4' => 12,
+                    'DSP48E1' => 4,
+                    'Total_LUTs' => 47,
+                    'Total_DSPs' => 4,
+               },
+          ], 
+     },
+     { 
+          'File_Name' => 'xilinx_transfer_function_1.vhd',
+          'Line_Num' => 'Line_000',
+          'Hier_Name' => 'xilinx_transfer_function_1',
+          'Cell_Name' => 'xilinx_transfer_function_1',
+          'Primitives' => [ 
+               { 
+                    'CARRY4' => 82,
+                    'LUT2' => 273,
+                    'DSP48E1' => 14,
+                    'LUT4' => 40,
+                    'LUT3' => 15,
+                    'LUT5' => 2,
+                    'LUT6' => 31,
+                    'Total_LUTs' => 361,
+                    'Total_DSPs' => 14,
+               },
+          ],
+     },
+   ],
+} 

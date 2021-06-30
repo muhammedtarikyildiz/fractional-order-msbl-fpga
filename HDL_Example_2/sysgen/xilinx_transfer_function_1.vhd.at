@@ -1,0 +1,52 @@
+{
+  'Line_113' => {
+    'CodeInstance' => 'xilinx_transfer_function_1_struct/adder1',
+    'Instance' => 'adder1',
+    'SimulinkInstance' => 'xilinx_transfer_function_1/adder1'
+  },
+  'Line_144' => {
+    'CodeInstance' => 'xilinx_transfer_function_1_struct/adder2',
+    'Instance' => 'adder2',
+    'SimulinkInstance' => 'xilinx_transfer_function_1/adder2'
+  },
+  'Line_175' => {
+    'CodeInstance' => 'xilinx_transfer_function_1_struct/ud1',
+    'Instance' => 'ud1',
+    'SimulinkInstance' => 'xilinx_transfer_function_1/ud1'
+  },
+  'Line_188' => {
+    'CodeInstance' => 'xilinx_transfer_function_1_struct/multiply1',
+    'Instance' => 'multiply1',
+    'SimulinkInstance' => 'xilinx_transfer_function_1/Multiply1'
+  },
+  'Line_225' => {
+    'CodeInstance' => 'xilinx_transfer_function_1_struct/ud2',
+    'Instance' => 'ud2',
+    'SimulinkInstance' => 'xilinx_transfer_function_1/ud2'
+  },
+  'Line_255' => {
+    'CodeInstance' => 'xilinx_transfer_function_1_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  },
+  'Line_289' => {
+    'CodeInstance' => 'xilinx_transfer_function_1_default_clock_driver',
+    'Instance' => 'xilinx_transfer_function_1_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_297' => {
+    'CodeInstance' => 'xilinx_transfer_function_1_struct',
+    'Instance' => 'xilinx_transfer_function_1_struct',
+    'SimulinkInstance' => 'xilinx_transfer_function_1'
+  },
+  'Line_39' => {
+    'CodeInstance' => 'xilinx_transfer_function_1_struct/multiply2',
+    'Instance' => 'multiply2',
+    'SimulinkInstance' => 'xilinx_transfer_function_1/Multiply2'
+  },
+  'Line_76' => {
+    'CodeInstance' => 'xilinx_transfer_function_1_struct/multiply3',
+    'Instance' => 'multiply3',
+    'SimulinkInstance' => 'xilinx_transfer_function_1/Multiply3'
+  }
+}

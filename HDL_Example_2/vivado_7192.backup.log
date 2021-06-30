@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Jun 24 23:22:00 2021
+# Process ID: 7192
+# Current directory: C:/Users/TARIK/Desktop/HDL
+# Command line: vivado.exe -mode batch -source ProjectGeneration.tcl -notrace
+# Log file: C:/Users/TARIK/Desktop/HDL/vivado.log
+# Journal file: C:/Users/TARIK/Desktop/HDL\vivado.jou
+#-----------------------------------------------------------
+source ProjectGeneration.tcl -notrace
+WARNING: [Coretcl 2-176] No IPs found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'xilinx_transfer_function_mult_gen_v12_0_i0' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'xilinx_transfer_function_mult_gen_v12_0_i0' to 'xilinx_transfer_function_mult_gen_v12_0_i0' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'SclrCePriority' from 'SCLR_Overrides_CE' to 'CE_Overrides_SCLR' has been ignored for IP 'xilinx_transfer_function_mult_gen_v12_0_i0'
+WARNING: [IP_Flow 19-4832] The IP name 'xilinx_transfer_function_mult_gen_v12_0_i1' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'xilinx_transfer_function_mult_gen_v12_0_i1' to 'xilinx_transfer_function_mult_gen_v12_0_i1' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'SclrCePriority' from 'SCLR_Overrides_CE' to 'CE_Overrides_SCLR' has been ignored for IP 'xilinx_transfer_function_mult_gen_v12_0_i1'
+WARNING: [IP_Flow 19-4832] The IP name 'xilinx_transfer_function_c_addsub_v12_0_i0' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'xilinx_transfer_function_c_addsub_v12_0_i0' to 'xilinx_transfer_function_c_addsub_v12_0_i0' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '00000000000000000000000000000000000000000000000000000000000000000' to '0' has been ignored for IP 'xilinx_transfer_function_c_addsub_v12_0_i0'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'xilinx_transfer_function_c_addsub_v12_0_i0'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'xilinx_transfer_function_c_addsub_v12_0_i0'
+WARNING: [IP_Flow 19-4832] The IP name 'xilinx_transfer_function_c_addsub_v12_0_i1' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'xilinx_transfer_function_c_addsub_v12_0_i1' to 'xilinx_transfer_function_c_addsub_v12_0_i1' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '000000000000000000000000000000000000000000000000000000000000000000' to '0' has been ignored for IP 'xilinx_transfer_function_c_addsub_v12_0_i1'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'xilinx_transfer_function_c_addsub_v12_0_i1'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'xilinx_transfer_function_c_addsub_v12_0_i1'
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 24 23:22:11 2021...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jun 25 23:01:42 2021
+# Process ID: 6000
+# Current directory: C:/Users/TARIK/Desktop/HDL_IP_Example_1
+# Command line: vivado.exe -mode batch -source ProjectGeneration.tcl -notrace
+# Log file: C:/Users/TARIK/Desktop/HDL_IP_Example_1/vivado.log
+# Journal file: C:/Users/TARIK/Desktop/HDL_IP_Example_1\vivado.jou
+#-----------------------------------------------------------
+source ProjectGeneration.tcl -notrace

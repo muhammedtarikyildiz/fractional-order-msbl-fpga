@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jun 25 23:06:24 2021
+# Process ID: 2564
+# Current directory: C:/Users/TARIK/Desktop/HDL_IP_Example_1
+# Command line: vivado.exe -mode batch -source ProjectGeneration.tcl -notrace
+# Log file: C:/Users/TARIK/Desktop/HDL_IP_Example_1/vivado.log
+# Journal file: C:/Users/TARIK/Desktop/HDL_IP_Example_1\vivado.jou
+#-----------------------------------------------------------
+source ProjectGeneration.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+WARNING: [Coretcl 2-176] No IPs found
+WARNING: [IP_Flow 19-4832] The IP name 'xilinx_transfer_function_1_c_addsub_v12_0_i0' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'xilinx_transfer_function_1_c_addsub_v12_0_i0' to 'xilinx_transfer_function_1_c_addsub_v12_0_i0' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '00000000000000000000000000000000000000000000000000000000000000000' to '0' has been ignored for IP 'xilinx_transfer_function_1_c_addsub_v12_0_i0'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'xilinx_transfer_function_1_c_addsub_v12_0_i0'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'xilinx_transfer_function_1_c_addsub_v12_0_i0'
+WARNING: [IP_Flow 19-4832] The IP name 'xilinx_transfer_function_1_c_addsub_v12_0_i1' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'xilinx_transfer_function_1_c_addsub_v12_0_i1' to 'xilinx_transfer_function_1_c_addsub_v12_0_i1' is not allowed and is ignored.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'B_Value' from '0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000' to '0' has been ignored for IP 'xilinx_transfer_function_1_c_addsub_v12_0_i1'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_Sense' from 'Active_High' to 'Active_Low' has been ignored for IP 'xilinx_transfer_function_1_c_addsub_v12_0_i1'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'Bypass_CE_Priority' from 'CE_Overrides_Bypass' to 'Bypass_Overrides_CE' has been ignored for IP 'xilinx_transfer_function_1_c_addsub_v12_0_i1'
+IP Repository Located at : C:/Xilinx/Vivado/2021.1/data/ip
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+Adding File c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/xilinx_transfer_function_1.srcs/sources_1/ip/xilinx_transfer_function_1_c_addsub_v12_0_i0/xilinx_transfer_function_1_c_addsub_v12_0_i0.xci
+Adding File c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/xilinx_transfer_function_1.srcs/sources_1/ip/xilinx_transfer_function_1_c_addsub_v12_0_i1/xilinx_transfer_function_1_c_addsub_v12_0_i1.xci
+Adding File C:/Users/TARIK/Desktop/HDL_IP_Example_1/sysgen/xilinx_transfer_function_1.xdc
+Adding File C:/Users/TARIK/Desktop/HDL_IP_Example_1/sysgen/xilinx_transfer_function_1.htm
+Adding File C:/Users/TARIK/Desktop/HDL_IP_Example_1/sysgen/xilinx_transfer_function_1_tb.vhd
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from TCL Argument).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog'.)
+WARNING: [IP_Flow 19-4832] The IP name 'xilinx_transfer_function_1_0' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+0
+WARNING: [BD 41-1753] The name 'xilinx_transfer_function_1_bd' you have specified is long. The Windows OS has path length limitations. It is recommended you use shorter names(less than 25 characters) to reduce the likelihood of issues when/if running on windows OS.
+Wrote  : <C:\Users\TARIK\Desktop\HDL_IP_Example_1\ip_catalog\xilinx_transfer_function_1.srcs\sources_1\bd\xilinx_transfer_function_1_bd\xilinx_transfer_function_1_bd.bd> 
+WARNING: [BD 41-1753] The name 'xilinx_transfer_function_1_1' you have specified is long. The Windows OS has path length limitations. It is recommended you use shorter names(less than 25 characters) to reduce the likelihood of issues when/if running on windows OS.
+WARNING: [BD 5-232] No interface pins matched 'get_bd_intf_pins /xilinx_transfer_function_1_1/*'
+WARNING: [BD 5-232] No interface pins matched 'get_bd_intf_pins /xilinx_transfer_function_1_1/*'
+WARNING: [BD 5-670] It is required to provide a frequency value for a user created input clock port. Please use the <-freq_hz $freq_val> argument of the create_bd_port command. ie create_bd_port -dir I -type clk -freq_hz 100000000 clkin
+WARNING: [BD 5-232] No interface pins matched 'get_bd_intf_pins /xilinx_transfer_function_1_1/*'
+Wrote  : <C:\Users\TARIK\Desktop\HDL_IP_Example_1\ip_catalog\xilinx_transfer_function_1.srcs\sources_1\bd\xilinx_transfer_function_1_bd\xilinx_transfer_function_1_bd.bd> 
+update_compile_order: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1119.113 ; gain = 0.000
+INFO: Setting More Options property of synthesis to -mode out_of_context.
+INFO: To enable analysis of IP Catalog flow results the top module is set to xilinx_transfer_function_1_stub.
+INFO: SG_Analyzer -- Running synth_1 ...
+INFO: [BD 41-1662] The design 'xilinx_transfer_function_1_bd.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/xilinx_transfer_function_1.gen/sources_1/bd/xilinx_transfer_function_1_bd/synth/xilinx_transfer_function_1_bd.vhd
+VHDL Output written to : C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/xilinx_transfer_function_1.gen/sources_1/bd/xilinx_transfer_function_1_bd/sim/xilinx_transfer_function_1_bd.vhd
+VHDL Output written to : C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/xilinx_transfer_function_1.gen/sources_1/bd/xilinx_transfer_function_1_bd/hdl/xilinx_transfer_function_1_bd_wrapper.vhd
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: c:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/xilinx_transfer_function_1.gen/sources_1/bd/xilinx_transfer_function_1_bd/ip/xilinx_transfer_function_1_bd_xilinx_transfer_function_1_1_0/xilinx_transfer_function_1_c_addsub_v12_0_i0/xilinx_transfer_function_1_c_addsub_v12_0_i0.xci
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+ERROR: [BD 41-1030] Generation failed for the IP Integrator block xilinx_transfer_function_1_1 
+Exporting to file C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/xilinx_transfer_function_1.gen/sources_1/bd/xilinx_transfer_function_1_bd/hw_handoff/xilinx_transfer_function_1_bd.hwh
+Generated Block Design Tcl file C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/xilinx_transfer_function_1.gen/sources_1/bd/xilinx_transfer_function_1_bd/hw_handoff/xilinx_transfer_function_1_bd_bd.tcl
+Generated Hardware Definition File C:/Users/TARIK/Desktop/HDL_IP_Example_1/ip_catalog/xilinx_transfer_function_1.gen/sources_1/bd/xilinx_transfer_function_1_bd/synth/xilinx_transfer_function_1_bd.hwdef
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'xilinx_transfer_function_1_0'...
+ERROR: An error occurred when creating the Vivado project.
+ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.
+
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 25 23:06:53 2021...

@@ -1,0 +1,98 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x1DA4AAE7F2BCF54D",
+      "design_src": "SYSGEN",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../func1.gen/sources_1/bd/func1_bd",
+      "name": "func1_bd",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "func1_1": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "func1_bd_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "gateway_out2": {
+        "type": "data",
+        "direction": "O",
+        "left": "63",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "signal_with_noise1": {
+        "type": "data",
+        "direction": "I",
+        "left": "31",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "func1_1": {
+        "vlnv": "User_Company:SysGen:func1:1.0",
+        "xci_name": "func1_bd_func1_1_0",
+        "xci_path": "ip\\func1_bd_func1_1_0\\func1_bd_func1_1_0.xci",
+        "inst_hier_path": "func1_1"
+      }
+    },
+    "nets": {
+      "clk_1": {
+        "ports": [
+          "clk",
+          "func1_1/clk"
+        ]
+      },
+      "func1_1_gateway_out2": {
+        "ports": [
+          "func1_1/gateway_out2",
+          "gateway_out2"
+        ]
+      },
+      "signal_with_noise1_1": {
+        "ports": [
+          "signal_with_noise1",
+          "func1_1/signal_with_noise1"
+        ]
+      }
+    }
+  }
+}

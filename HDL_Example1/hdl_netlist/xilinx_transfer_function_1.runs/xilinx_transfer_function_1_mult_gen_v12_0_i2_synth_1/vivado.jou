@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jun 25 18:49:37 2021
+# Process ID: 14496
+# Current directory: C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.runs/xilinx_transfer_function_1_mult_gen_v12_0_i2_synth_1
+# Command line: vivado.exe -log xilinx_transfer_function_1_mult_gen_v12_0_i2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source xilinx_transfer_function_1_mult_gen_v12_0_i2.tcl
+# Log file: C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.runs/xilinx_transfer_function_1_mult_gen_v12_0_i2_synth_1/xilinx_transfer_function_1_mult_gen_v12_0_i2.vds
+# Journal file: C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.runs/xilinx_transfer_function_1_mult_gen_v12_0_i2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source xilinx_transfer_function_1_mult_gen_v12_0_i2.tcl -notrace

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jun 25 19:35:33 2021
+# Process ID: 7488
+# Current directory: C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13144 C:\Users\TARIK\Desktop\HDL_Example1\hdl_netlist\xilinx_transfer_function_1.xpr
+# Log file: C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/vivado.log
+# Journal file: C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/TARIK/Desktop/HDL_Example1/hdl_netlist/xilinx_transfer_function_1.xpr
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
